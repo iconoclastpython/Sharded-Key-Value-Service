@@ -1,7 +1,6 @@
 # Sharded-Key-Value-Service
 
-Implemented a Sharded key/value database service, where each shard replicates its state based on Paxos algorithm,
-which handles network partitions and is fault tolerant, scalability, and availability.
+This project is Linux system based enviornment and implements a Sharded key/value database service, where each shard replicates its state based on Paxos algorithm, which handles network partitions and is fault tolerant, scalability, and availability.
 
 Deals with Put(), Append(), and Get() requests concurrently and supports MapReduce application on the database.
 
